@@ -1,0 +1,71 @@
+
+.bigContainer {
+	position: relative;
+	width: 100vw;
+}
+
+header, footer {
+	display: block;
+	width: 100%;
+	background-color: #FE1A19;
+	padding: 20px;
+	color: white;
+	font-family: "Helvetica", sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	box-sizing: border-box;
+	position: absolute;
+}
+
+header {
+	left: 0;
+	top: 0;
+}
+
+footer {
+	left: 0;
+	bottom: 0;
+}
+
+main {
+	padding: 112px 70px;
+}
+
+.tart {
+	display: inline-block;
+	width: 400px;
+	height: 800px;
+	box-sizing: border-box;
+	border: 5px solid #E5E000;
+	border-radius: 30px;
+	padding: 33px;
+	margin-right: 50px;
+}
+
+.tart h2 {
+	font-family: "Helvetica", sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.tart p {
+	font-family: "Times New Roman", serif;
+	font-size: 20px;
+	line-height: 23px;
+	
+	margin-top: 41px;
+}
+
+.tart.last {
+	margin-right: 0;
+}
+
+
+
+
+
+
+
+
+
+
