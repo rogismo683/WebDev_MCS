@@ -1,0 +1,220 @@
+@import url(reset.css);
+
+
+/* BASIC */
+
+.big {
+	box-sizing: border-box;
+}
+
+header {
+	box-sizing: border-box;
+	display: flex;
+	padding: 50px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: #fff;
+	width: 100%;
+}
+
+.top {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.menu {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.logo a, .link {
+	font-family: Arial, sans-serif;
+	font-size: 50px;
+	line-height: 57px;
+ 	color: #E50043;
+ 	text-decoration: none;
+}
+
+.link {
+	margin-left: 25px;
+}
+
+main {
+	box-sizing: border-box;
+	padding-top: 140px;
+}
+
+section {
+	margin-bottom: 150px;
+}
+
+
+
+
+
+
+
+/* HERO */
+
+.hero {
+	display: flex;
+	height: 950px;
+	background: no-repeat url('../img/evian_origins_logo.png') top center;
+    background-size: cover;
+ 	justify-content: center;
+ 	align-items: center;
+}
+
+h1 {
+	font-family: Arial, sans-serif;
+	font-size: 100px;
+ 	color: #E50043;
+}
+
+
+
+
+
+
+
+/* INFO */
+
+.info {
+	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+}
+
+.pink {
+ 	width: 1040px;
+ 	border: 3px solid #F8BFC7;
+	box-sizing: border-box;
+	border-radius: 20px;
+}
+
+.info .pink {
+ 	padding: 24px;
+}
+
+.pink h2, .pink p {
+	font-family: Arial, sans-serif;
+	font-size: 25px;
+	line-height: 29px;
+	display: block;
+}
+
+.pink h2 {
+	margin-bottom: 25px;
+}
+
+
+
+
+
+
+
+/* PRODUCTS */
+
+
+
+.products {
+	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	box-sizing: border-box;
+}
+
+.tara {
+	width: 1040px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+}
+
+.bottle {
+ 	width: 280px;
+}
+
+.bottle img {
+	width: 280px;
+	margin-bottom: 48px;
+}
+
+.bottle p {
+	text-align: center;
+	font-family: Arial, sans-serif;
+	font-size: 25px;
+	line-height: 28.75px;
+	margin-bottom: 3px;
+}
+
+
+
+
+
+
+
+/* EXTRA */
+
+
+
+.extra {
+	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	box-sizing: border-box;
+}
+
+
+.extra .pink {
+ 	padding: 30px;
+ 	display: flex;
+}
+
+.extraPicture {
+	width: 200px;
+	background: url('../img/glass.png') top center no-repeat;
+	margin-right: 30px;
+}
+
+.extraItem {
+	font-family: Arial, sans-serif;
+	font-size: 25px;
+	line-height: 30px;
+}
+
+.extraItem:not(:last-child) {
+	padding-bottom: 30px;
+}
+
+
+
+
+
+
+
+/* FINISH */
+
+
+
+footer {
+	width: 100%;
+	background-color: #F8BFC7;
+	padding: 50px;
+	color: white;
+	font-family: Arial, sans-serif;
+	font-weight: 400;
+	font-size: 50px;
+	box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
