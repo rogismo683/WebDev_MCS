@@ -44,12 +44,13 @@ header {
 main {
 	box-sizing: border-box;
 	padding-top: 140px;
+	padding-bottom: 150px;
 }
 
-section {
-	margin-bottom: 150px;
+.pink,
+.tara {
+	margin-top: 150px;
 }
-
 
 
 
@@ -73,7 +74,11 @@ h1 {
  	color: #E50043;
 }
 
-
+.inner {
+	width: 100%;
+	max-width: 1040px;
+	margin: 0 auto;
+}
 
 
 
@@ -88,7 +93,7 @@ h1 {
 }
 
 .pink {
- 	width: 1040px;
+ 	width: 100%;
  	border: 3px solid #F8BFC7;
 	box-sizing: border-box;
 	border-radius: 20px;
@@ -127,7 +132,7 @@ h1 {
 }
 
 .tara {
-	width: 1040px;
+	width: 100%;
 	box-sizing: border-box;
 	display: flex;
 	justify-content: space-between;
